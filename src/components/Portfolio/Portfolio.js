@@ -6,46 +6,46 @@ function Portfolio() {
   // an array of project info that will be mapped and passed to project
     const projects = [
         {
-            title: "SLP Goalden",
-            details: "An app designed to help speech language pathologists keep track of student goals and goal progress. It utilizes a MySQL database and Handlebars templating engine. Built with Node, MySQL, Sequelize, Express, HTML, CSS, JavaScript.",
+            title: "Mountain Lake Bed & Breakfast",
+            details: "A bed and breafast hotel site where you can book a room, view the cost, and make changes as needed.It utilizes a MySQL database and Handlebars templating engine. Built with Node, MySQL, Sequelize, Express, HTML, CSS, JavaScript.",
             highlights: "Node MySQL Materialize",
-            pLink: "https://mighty-falls-97052.herokuapp.com/",
-            rLink: "https://github.com/Craig5117/slp-goalden"
+            pLink: "mountainlake.herokuapp.com/",
+            rLink: "https://github.com/tooqk4u/Mountain-Lake-Bed-and-Breakfast"
         },
         {
-            title: "Off the Beaten Path",
-            details: "An app that allows you to search for hiking trails near a location. It utilizes API calls, local storage, and DOM manipulation. Built with HTML, CSS, JavaScript, and jQuery.",
-            highlights: "Javascript jQuery Bulma",
-            pLink: "https://craig5117.github.io/off-the-beaten-path/",
-            rLink: "https://github.com/Craig5117/off-the-beaten-path"
+            title: "Soccer Standings & News",
+            details: "A website that allows the soccer superfan to look up team standings, watch highlights of games on the app widget and to keep updated on all current news regarding their favorite team. It utilizes API calls, local storage, and DOM manipulation. Built with HTML, CSS, JavaScript, and jQuery.",
+            highlights: "Javascript jQuery",
+            pLink: "https://ryanweiler92.github.io/Soccer-Standings-News/",
+            rLink: "https://github.com/ryanweiler92/Soccer-Standings-News"
         },
         {
-            title: "SLP Reach",
-            details: "A tool for speech language pathologists to track their students' speech goal progress. It utilizes DOM manipulation and creates a JSON database that is stored with localStorage. Built with HTML, CSS, JavaScript, and jQuery.",
+            title: "Weather Dashboard",
+            details: "A website that allows a user to input a city to receive todays forecast and the 5 day forecast.Built with HTML, CSS, JavaScript, and jQuery.",
             highlights: "JavaScript jQuery Bootstrap",
-            pLink: "https://craig5117.github.io/slp-reach/",
-            rLink: "https://github.com/Craig5117/slp-reach"
+            pLink: "https://tooqk4u.github.io/Weather-Dashboard/",
+            rLink: "https://github.com/tooqk4u/Weather-Dashboard"
         },
         {
             title: "The Tech Blog",
             details: "A full-stack CMS app for posting articles and opinions about tech relatated news. Utilizes MVC structure, node, Express, MySQL and Sequelize. Deployed to Heroku.",
             highlights: "Express MySQL Sequelize",
-            pLink: "https://shielded-sea-02519.herokuapp.com/",
-            rLink: "https://github.com/Craig5117/the-tech-blog"
+            pLink: "https://sleepy-island-29561.herokuapp.com/",
+            rLink: "https://github.com/tooqk4u/Tech-Blog"
         },
         {
             title: "Employee Manager",
             details: "Employee Manager is a command line app that interacts with a MySQL database to so that you can easily keep track your company's departments, roles, and employees. Utilizes node, MySQL, inquirer.js.",
             highlights: "MySQL Node Inquirer",
-            pLink: "https://drive.google.com/file/d/13UkLrgf3CfAjvipaZ2PQmYJ3rc755--b/view",
-            rLink: "https://github.com/Craig5117/employee-manager"
+            pLink: "https://drive.google.com/file/d/16uN31aRwsMttfUDWhgveZG_Y4xO139bm/view",
+            rLink: "https://github.com/tooqk4u/Employee-Tracker"
         },
         {
-          title: "Google Books Search",
-          details: "A React app with a GraphQL back-end. I converted this from REST to GraphQL on the back-end and front-end. Utilizes apollo-server-express on the back-end and apollo-boost on the front-end. Also utilizes JWT for user authorization.",
+          title: "JavaScript Quiz",
+          details:  "JavaScript Quiz",
           highlights: "React GraphQL Apollo-GraphQL",
-          pLink: "https://craigs-books-search.herokuapp.com/",
-          rLink: "https://github.com/Craig5117/google-books-search"
+          pLink: "https://tooqk4u.github.io/JavaScript-Quiz/",
+          rLink: "https://github.com/tooqk4u/JavaScript-Quiz"
         },
     ]
   return (
@@ -55,7 +55,7 @@ function Portfolio() {
           <h3 className="anti-skew">Portfolio</h3>
         </div>
       </div>
-        <p className="portfolio-text">Check out some of my projects below. If you would like to see the repo for my portfolio site, <a href="https://github.com/Craig5117/craigbennett-reaction" target="_blank"
+        <p className="portfolio-text">Check out some of my projects below. If you would like to see the repo for my portfolio site, <a href="https://github.com/tooqk4u/Professional-React-Portfolio" target="_blank"
                     rel="nofollow noopener noreferrer">click here</a>.</p>
         <Container className="d-flex flex-wrap mt-5">
         {projects.map((project, i) => ( 

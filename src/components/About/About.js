@@ -12,10 +12,7 @@ function About() {
         <div className="bio-image"></div>
         <article className="pt-4 px-3 bio-text">
           <p className="py-2">
-            I am a full stack developer with a background in translation,
-            working cross culturally in the South Pacific. I have a M.A. degree
-            with a certificate in linguistics. I have recently obtained a
-            certificate in full stack development from Vanderbilt University.
+          Hi, my name is Shelley Soucie. I have spent the last 17 years working as a physical therapist. I have consistently worked with applications for clinical documentation. It was my frustration with the inadequacies of these applications that piqued my interest in computer programming. Upon further research I realized I had a deep interest in learning about web development. I have recently graduated from UCONN Coding Bootcamp for Web development.
           </p>
           <p className="py-2">
             I have both front end and back end skills including React, Node.js,
@@ -23,15 +20,16 @@ function About() {
             developer, click the link to my resume above.
           </p>
           <p className="py-2">
-            My work as a linguist required creative problem-solving skills and a
-            focus on consumer impact. I have experience managing multiple
-            projects and teams. I work hard and strive for excellence in
+            My work as a Physical Therapist required creative problem-solving skills and a
+            focus on client impact. I have experience managing multiple
+            clients usually carrying a caseload of 20-30 clients. I also have experience 
+            managing several Physical Therapy Assistants. I work hard and strive for excellence in
             everything that I do. These same skills serve me well when it comes
             to meeting client expectations for their web needs.
           </p>
           <p className="py-2">
-            When I am not working, I enjoy spending time with my family, hiking,
-            fishing, gaming, and practicing martial arts.
+            When I am not working, I enjoy spending time with my family, hiking with my dogs,
+            reading, gardening, and practicing coding.
           </p>
           <p className="py-2">
             Click the link to my portfolio section to see examples of my work.{' '}

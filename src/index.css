@@ -166,7 +166,7 @@ header {
   height: 60vw;
   width: 60vw;
   background-size: cover;  
-  background-image: url('./assets/images/bio-pic-bw-800.webp');
+  background-image: url('./assets/images/danielle.PNG');
   border: solid 5px var(--accent-theme);
   box-shadow: 0 0 20px #43373D;
   margin: 0 auto;

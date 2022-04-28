@@ -19,7 +19,7 @@ function Resume() {
       </p>
       <div className="d-flex justify-content-end mb-5 ">
         <div className="skew resume-link text-center">
-          <a href="./Craig-Bennett_Resume.pdf" download>
+          <a href="./Shelley_Soucie_resume.docx" download>
             <p className="anti-skew resume-link-text">
               My Resume <i className="fas fa-file-download"></i>
             </p>
