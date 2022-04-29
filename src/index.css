@@ -13,11 +13,11 @@ theme text 1(cultured): #F5F3F4
 }
 
 :root {
-  --bg-theme: #0B090A;
-  --accent-theme: #A4161A;
+  --bg-theme: black;
+  --accent-theme: blue;
   --text-theme: #F5F3F4;
   --accent-dark: #660708;
-  --accent-light: #EA5D5F;
+  --accent-light: yellow;
 }
 
 .bg-theme-1 {

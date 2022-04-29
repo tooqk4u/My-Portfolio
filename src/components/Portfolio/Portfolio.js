@@ -7,28 +7,28 @@ function Portfolio() {
     const projects = [
         {
             title: "Mountain Lake Bed & Breakfast",
-            details: "A bed and breafast hotel site where you can book a room, view the cost, and make changes as needed.It utilizes a MySQL database and Handlebars templating engine. Built with Node, MySQL, Sequelize, Express, HTML, CSS, JavaScript.",
+            details: "A bed and breafast hotel site where you can book a room, view the cost, and make changes as needed.It utilizes a MySQL database and Handlebars templating engine. Built with Node, MySQL, Sequelize, Express, HTML, CSS, JavaScript and deployed to Heroku.",
             highlights: "Node MySQL Materialize",
             pLink: "mountainlake.herokuapp.com/",
             rLink: "https://github.com/tooqk4u/Mountain-Lake-Bed-and-Breakfast"
         },
         {
             title: "Soccer Standings & News",
-            details: "A website that allows the soccer superfan to look up team standings, watch highlights of games on the app widget and to keep updated on all current news regarding their favorite team. It utilizes API calls, local storage, and DOM manipulation. Built with HTML, CSS, JavaScript, and jQuery.",
+            details: "A website that allows the soccer superfan to look up team standings, watch highlights of games on the app widget and to keep updated on all current news regarding their favorite team. It utilizes API calls, local storage, and DOM manipulation. Built with HTML, CSS, JavaScript, and jQuery using API's.",
             highlights: "Javascript jQuery",
             pLink: "https://ryanweiler92.github.io/Soccer-Standings-News/",
             rLink: "https://github.com/ryanweiler92/Soccer-Standings-News"
         },
         {
             title: "Weather Dashboard",
-            details: "A website that allows a user to input a city to receive todays forecast and the 5 day forecast.Built with HTML, CSS, JavaScript, and jQuery.",
+            details: "A website that allows a user to input a city to receive todays forecast and the 5 day forecast.Built with HTML, CSS, JavaScript, and jQuery using API's.",
             highlights: "JavaScript jQuery Bootstrap",
             pLink: "https://tooqk4u.github.io/Weather-Dashboard/",
             rLink: "https://github.com/tooqk4u/Weather-Dashboard"
         },
         {
             title: "The Tech Blog",
-            details: "A full-stack CMS app for posting articles and opinions about tech relatated news. Utilizes MVC structure, node, Express, MySQL and Sequelize. Deployed to Heroku.",
+            details: "A full-stack CMS app for posting articles and opinions about tech related news. Utilizes MVC structure, node, Express, MySQL and Sequelize. Deployed to Heroku.",
             highlights: "Express MySQL Sequelize",
             pLink: "https://sleepy-island-29561.herokuapp.com/",
             rLink: "https://github.com/tooqk4u/Tech-Blog"
@@ -43,7 +43,14 @@ function Portfolio() {
         {
           title: "JavaScript Quiz",
           details:  "JavaScript Quiz",
-          highlights: "React GraphQL Apollo-GraphQL",
+          highlights: "HTML, CSS, JavaScript",
+          pLink: "https://tooqk4u.github.io/JavaScript-Quiz/",
+          rLink: "https://github.com/tooqk4u/JavaScript-Quiz"
+        },
+        {
+          title: "Password Generator",
+          details:  "JavaScript Quiz",
+          highlights: "HTML, CSS, JavaScript",
           pLink: "https://tooqk4u.github.io/JavaScript-Quiz/",
           rLink: "https://github.com/tooqk4u/JavaScript-Quiz"
         },
