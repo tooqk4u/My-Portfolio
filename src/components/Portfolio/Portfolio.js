@@ -9,7 +9,7 @@ function Portfolio() {
             title: "Mountain Lake Bed & Breakfast",
             details: "A bed and breafast hotel site where you can book a room, view the cost, and make changes as needed.It utilizes a MySQL database and Handlebars templating engine. Built with Node, MySQL, Sequelize, Express, HTML, CSS, JavaScript and deployed to Heroku.",
             highlights: "Node MySQL Materialize",
-            pLink: "mountainlake.herokuapp.com/",
+            pLink: "https://mountainlake.herokuapp.com/",
             rLink: "https://github.com/tooqk4u/Mountain-Lake-Bed-and-Breakfast"
         },
         {
@@ -34,8 +34,8 @@ function Portfolio() {
             rLink: "https://github.com/tooqk4u/Tech-Blog"
         },
         {
-            title: "Employee Manager",
-            details: "Employee Manager is a command line app that interacts with a MySQL database to so that you can easily keep track your company's departments, roles, and employees. Utilizes node, MySQL, inquirer.js.",
+            title: "Employee Tracker",
+            details: "Employee Tracker is a command line app that interacts with a MySQL database to so that you can easily keep track your company's departments, roles, and employees. Utilizes node, MySQL, inquirer.js.",
             highlights: "MySQL Node Inquirer",
             pLink: "https://drive.google.com/file/d/16uN31aRwsMttfUDWhgveZG_Y4xO139bm/view",
             rLink: "https://github.com/tooqk4u/Employee-Tracker"
@@ -51,8 +51,15 @@ function Portfolio() {
           title: "Password Generator",
           details:  "JavaScript Quiz",
           highlights: "HTML, CSS, JavaScript",
-          pLink: "https://tooqk4u.github.io/JavaScript-Quiz/",
-          rLink: "https://github.com/tooqk4u/JavaScript-Quiz"
+          pLink: "https://tooqk4u.github.io/Password-Generator/",
+          rLink: "https://github.com/tooqk4u/Password-Generator"
+        },
+        {
+          title: "RunBuddy",
+          details:  "Run Buddy",
+          highlights: "HTML, CSS, JavaScript",
+          pLink: "https://tooqk4u.github.io/Password-Generator/",
+          rLink: "https://github.com/tooqk4u/Password-Generator"
         },
     ]
   return (

@@ -14,9 +14,9 @@ theme text 1(cultured): #F5F3F4
 
 :root {
   --bg-theme: black;
-  --accent-theme: blue;
+  --accent-theme: rgb(0, 136, 255);
   --text-theme: #F5F3F4;
-  --accent-dark: #660708;
+  --accent-dark: grey;
   --accent-light: yellow;
 }
 
@@ -49,12 +49,12 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(67, 55, 61, 0.3);
+  box-shadow: inset 0 0 6px gray;
   background-color: var(--accent-dark);
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: #7e5959;
+  background-color: blue;
   outline: 1px solid #433737;
   border-radius: 25px;
   box-shadow: 0 1px #43373D;
